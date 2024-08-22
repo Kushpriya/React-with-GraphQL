@@ -1,7 +1,45 @@
-.GetBlogs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    
-  }
+.blog-container {
+  width: 80%;
+  margin: auto;
+}
+
+.blog-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.blog-form {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.blog-form div {
+  margin-bottom: 10px;
+}
+
+.blog-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.blog-form input[type="text"],
+.blog-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.blog-form button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.blog-form button:hover {
+  background-color: #0056b3;
+}
